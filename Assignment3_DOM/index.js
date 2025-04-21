@@ -6,12 +6,15 @@ const students = [
   { name: "David", grade: 68 }
  ];
 
- for (let index=0; index<students.length; index++) {
+ for (let index =0 ; index < students.length; index++) {
   let student = students[index]
-  // let newParagraph = document.createElement("p")
-  // newParagraph.innerHTML = student["name"] + ", <strong>Grade:</strong> " + student["grade"]
+  console.log (student["name"])
+  console.log (student["grade"])
 
-  let newListItem = document.createElement("LI")
-  newListItem.innerHTML = student["name"] + ", <strong>Grade:</strong> " + student["grade"]
-  document.getElementById("studentList").append(newListItem)
+  let newParagraph = document.createElement ("p")
+  newParagraph.innerHTML = student["name"] + ", <strong>Grade:</strong> " + student["grade"]
+
+  document.getElementById ("divStudent").append(newParagraph)
+
  }
+

@@ -21,3 +21,4 @@ function studentGrading (studentName, studentScore) {
 studentGrading("Kameron", 96)
 studentGrading("Farnaz", 82)
 studentGrading("Tom", 72)
+studentGrading("Thomas", 51)
